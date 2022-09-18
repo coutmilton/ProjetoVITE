@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+
+}
+
+/* 
+.wrapper {
+    max-width: 70rem;                    * Tamanho total da sidebar + post. 
+    margin: 2rem auto;                   * Tamanho das margens.
+    padding: 0 1rem;                     * e diminuir a tela em menos de 70rem a tela fique proporcional.
+
+    display: grid;                        
+    grid-template-columns: 256px 1fr;    * Primeira columa, que é a sidebar, tenha uma largura fixa, 
+                                         e a segunda vai se adaptar paar quanto tiver na tela. 
+    gap: 2rem;                           * Espaço da sidebar e o post que é 32px.
+    align-items: flex-start;             * Deixa a sidebar o post alinhado para o topo, sem isso a sidebar
+                                         vai tentar ficar do mesmo tamanho do Post.
+}*/
