@@ -1,9 +1,10 @@
 import { Header } from "./components/Header"; // Importa a folha de estilos de Header.modules.css
-import { Post } from "./Post" // Importa a função criada em Post.jsx
+import { Post } from "./components/Post" // Importa a função criada em Post.jsx
+import { Sidebar } from "./components/Sidebar";
 
 import './global.css'; // Importa a folha de estilos de Global
 import styles from './App.module.css'
-import { Sidebar } from "./components/Sidebar";
+
 
 export function App() { // Cria e exporta uma função do App
   return (
