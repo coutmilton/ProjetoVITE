@@ -23,3 +23,13 @@
     align-items: flex-start;             * Deixa a sidebar o post alinhado para o topo, sem isso a sidebar
                                          vai tentar ficar do mesmo tamanho do Post.
 }*/
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

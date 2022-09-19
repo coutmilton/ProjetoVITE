@@ -1,15 +1,16 @@
 import { Comment } from './Comment'
 import styles from './Post.module.css'
+import { Avatar } from './Avatar'
 
 export function Post() {
     return (
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <img className={styles.avatar} src="https://github.com/coutmilton.png" />
+                    <Avatar src="https://i.pinimg.com/474x/9f/55/7f/9f557fdc42e8baa7b789048ee4fcd189.jpg" />
                     <div className={styles.authorInfo}>
-                        <strong>Milton Luiz</strong>
-                        <span>React Developer</span>
+                        <strong>Neymar Jr</strong>
+                        <span>Player Football</span>
                     </div>
                 </div>
 
@@ -17,14 +18,7 @@ export function Post() {
             </header>
 
             <div className={styles.content}>
-                <p> Fala galera</p>
-                <p> O elemento _HTML _representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. </p>
-                <p>👍 <a href='#'> Siga aqui</a></p>
-                <p>
-                    <a href='#'> #Oi </a>
-                    <a href="#"> #Siga </a>
-                    <a href="#"> #VamBora </a>
-                </p>
+
             </div>
 
             <form className={styles.commentForm}>
